@@ -20,6 +20,8 @@ body{
   position: absolute;
 }
 .intro{
+  font-family: cursive;
+  font-size: medium;
   color: black;
   width: 50%;
   height: 400px;
@@ -28,6 +30,8 @@ body{
   box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha), 0 6px 20px 0 rgba(red, green, blue, alpha);
   position: relative;
   border: 1px solid rgb(192, 202, 212)
-  border-bottom; turquoise;
-  border-right: turquoise;
+}
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
 }
