@@ -23,5 +23,10 @@ function formSort() {
     return document.getElementById("done").innerHTML = "Please enter valid date."
   }
 
+  let x = Math.floor((14 - month) / 12);
+  let y = YY - x;
+  let z = month + 12 * x -2;
+  let bday = (day + y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(y / 400) + Math.floor((31 * z) / 12)) %7;
+
   
 }
