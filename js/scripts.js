@@ -10,5 +10,18 @@ function formSort() {
   let maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   let femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
+  if (day < 1 || day > 31 || day == "") {
+    alert("Invalid day!");
+  }
+
+  if (month < 1 || month > 12 || month == "") {
+    alert("Invalid month!");
+  }
+
+  if (year < 1900 || year > 2021 || year == "") {
+    alert("Invalid year!");
+    return document.getElementById("done").innerHTML = "Please enter valid date."
+  }
+
   
 }
