@@ -28,5 +28,11 @@ function formSort() {
   let z = month + 12 * x -2;
   let bday = (day + y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(y / 400) + Math.floor((31 * z) / 12)) %7;
 
-  
+  if (gender == "male") {
+    return document.getElementById("done").innerHTML = dayWeek[bday] + ": " + maleName[bday];
+  }
+  else if (gender == "female") {
+    return document.getElementById("done").innerHTML = dayWeek[bday] + ": " + femaleName[bday];
+  }
+
 }
