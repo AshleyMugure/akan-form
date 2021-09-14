@@ -6,5 +6,9 @@ function formSort() {
   let CC = parseInt(year.slice(0, 2));
   let YY = parseInt(year.slice(2, 4));
 
-  let dayWeek = 
+  let dayWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  let maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  let femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+  
 }
